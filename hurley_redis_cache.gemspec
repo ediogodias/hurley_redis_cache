@@ -4,14 +4,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "hurley_cache/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "hurley_cache"
+  spec.name          = "hurley_redis_cache"
   spec.version       = HurleyCache::VERSION
   spec.authors       = ["Diogo Dias"]
   spec.email         = ["e.diogodias@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = "HurleyRedisCache"
+  spec.description   = "Hurley Redis Cache implementation"
+  spec.homepage      = "https://github.com/ediogodias/hurley_redis_cache"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
